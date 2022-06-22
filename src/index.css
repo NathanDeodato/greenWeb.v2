@@ -1,0 +1,23 @@
+/* config-global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* config-body */
+body {
+  background-color: #1c1c1c;
+  color: #000;
+}
+
+/* config-div */
+.GreenDiv {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
