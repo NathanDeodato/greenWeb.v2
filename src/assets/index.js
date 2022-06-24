@@ -1,3 +1,5 @@
+export { default as home } from "./home.png"
+
 export { default as greenLogo } from "./greenLogo.png";
 
 export { default as greenEather } from "./eatherGreen.png";
