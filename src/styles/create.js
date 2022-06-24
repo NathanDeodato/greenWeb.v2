@@ -1,9 +1,5 @@
 import styled from "styled-components"
 
-export const H1 = styled.h1`
-    padding-top: 2%;
-`
-
 export const CreateBox = styled.div`
     width: 55vw;
     height: 55vh;
@@ -15,10 +11,48 @@ export const CreateBox = styled.div`
 
     background-color: #00fa9a;
     border-radius: 20px;
+
+    @media (max-width: 1025px) {
+        width: 70vw;
+        height: 50vh;
+    }
+
+    @media (max-width: 769px) {
+        width: 75vw;
+        
+        border-radius: 15px;
+    }
+
+    @media (max-width: 426px) {
+        width: 95vw;
+        height: 45vh;
+    }
+
+    @media (max-width: 376px) {
+        width: 98vw;
+        height: 38vh;
+    }
+
+    @media (max-width: 320px) {
+        width: 98vw;
+        height: 36vh;
+    }
+`
+
+export const H1 = styled.h1`
+    padding-top: 2%;
+
+    @media (max-width: 769px) {
+        font-size: 1.6em;
+    }
+
+    @media (max-width: 426px) {
+        font-size: 1.2em;
+    }
 `
 
 export const InputBox = styled.div`
-    width: 80%;
+    width: 95%;
     height: 55%;
 
     display: flex;
@@ -50,6 +84,20 @@ export const Input = styled.input`
 
         background-color: #c0c0c0;
     }
+
+    @media (max-width: 426px) {
+        width: 45%;
+
+        font-size: 0.7em;
+    }
+
+    @media (max-width: 376px) {
+        font-size: 0.6em;
+    }
+
+    @media (max-width: 376px) {
+        font-size: 0.55em;
+    }
 `
 
 export const ButtonC = styled.button`
@@ -67,6 +115,11 @@ export const ButtonC = styled.button`
 
         background-color: #c0c0c0;
     }
+
+    @media (max-width: 426px) {
+        width: 24%;
+        height: 12%;
+    }
 `
 
 export const Link = styled.p`
@@ -74,5 +127,13 @@ export const Link = styled.p`
 
     &:hover {
         cursor: pointer;
+    }
+
+    @media (max-width: 426px) {
+        font-size: 0.8em;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 0.6em;
     }
 `
